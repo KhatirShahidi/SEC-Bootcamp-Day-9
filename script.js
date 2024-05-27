@@ -31,12 +31,6 @@ document.addEventListener("keydown", function (event) {
     scaleX = 1;
   }
 
-  pacManX = Math.max(0, Math.min(pacManX, gameFieldWidth - pacman.clientWidth));
-  pacManY = Math.max(
-    0,
-    Math.min(pacManY, gameFieldHeight - pacman.clientHeight)
-  );
-
   console.log(gameFieldWidth, gameFieldHeight);
 
   // Apply the updated positions to Pacman's style
